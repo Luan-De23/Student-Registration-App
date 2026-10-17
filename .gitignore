@@ -1,15 +1,29 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Built application files
+*.apk
+*.apks
+*.aab
+
+# Generated files
+bin/
+gen/
+out/
+build/
+
+.gradle/
+captures/
+
 local.properties
+
+.idea/
+.DS_Store
+*.iml
+.apt_generated
+.classpath
+.project
+.settings
+
+# Profiler files
+*.hprof
+
+# Firebase / Crashlytics
+com_crashlytics_export_result.xml
